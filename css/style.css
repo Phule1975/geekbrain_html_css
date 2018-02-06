@@ -2,6 +2,10 @@ body {
     background-color: #f8f8f8;
 }
 
+img {
+    border: 2px solid #00a8e1;
+}
+
 /* Меню */
 .menu li {
     font-style: italic;
@@ -49,3 +53,4 @@ body {
     font-size: 25px;
     list-style-image: url(/img/star_30.png);
     color: darkblue;
+}
