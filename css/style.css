@@ -1,12 +1,17 @@
+/* Фон */
+
 body {
     background-color: #f8f8f8;
 }
+
+/* Рамка картинок */
 
 img {
     border: 2px solid #00a8e1;
 }
 
 /* Меню */
+
 .menu li {
     font-style: italic;
     font-size: 20px;
