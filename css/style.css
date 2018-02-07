@@ -59,3 +59,29 @@ img {
     list-style-image: url(/img/star_30.png);
     color: darkblue;
 }
+
+fieldset {
+    width: 25%;
+    
+}
+
+textarea {
+    
+    height: 200px;
+    resize: none;
+}
+
+input, textarea {
+    color: #6600CC;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 250;
+    line-height: 30px;
+    margin: 5px;
+    width: 95%;
+    
+    
+}
+input {
+    height: 50px
+}
