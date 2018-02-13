@@ -10,8 +10,8 @@ img {
     border: 2px solid #00a8e1;
 }
 
-img:focus{
-    border: 2px solid #000;
+img:hover{
+    border-color: transparent;
 }
 
 /* Меню */
@@ -96,7 +96,7 @@ input, textarea {
 }
 input {
     height: 50px;
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
 }
 
 /* Таблица */
@@ -112,6 +112,24 @@ td {
     padding: 5px;
 }
 
-/*imput {
+/* При вводе текста каждое слово должно начинаться с большой буквы */
+
+input[type="text"] {
     text-transform: capitalize;
-}*/
+}
+
+/*  При вводе текста в поле “Email” поменять цвет текста и
+цвет поля*/
+
+input[type="email"]:focus {
+    background-color: aquamarine; 
+    color: red;
+    
+}
+
+/* в каждом параграфе сделать первую букву первого
+слова другим шрифтом и размером. */
+.bukva:first-letter {
+    color: blue;
+    font-size: 24px;
+}
