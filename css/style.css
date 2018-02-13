@@ -133,3 +133,21 @@ input[type="email"]:focus {
     color: blue;
     font-size: 24px;
 }
+
+/* Container */
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+.header {
+    background-color: #2118ff;
+    height: 100px;
+}
+.content{
+    background-color: #e1e0e1;
+    height: 400px;
+}
+.footer {
+    background-color: #905bae;
+    height: 100px;
+}
